@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main" id="home">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">FamFunds</h2>
+                <!--<img src="aa.jpg" alt="FamFunds Logo" class="logo"> -->
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#design">DESIGN</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#howItWork">HOW IT WORKS</a></li>
+                </ul>
+            </div>
+           
+        </div> 
+        <div class="content">
+            <h1>SECURE<br><span>Tomorrow!</span> 
+            <p class="par"></p>
+            TAKE CONTROL OF YOUR FAMILY'S FUTURE, ONE BUDGET AT A TİME               
+             <button class="cn">
+                <a href="login.html">Let's get started!</a>
+            </button>
+
+                 </div>
+                
+
+                </div>
+                 <!-- About Section -->
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        <p>FamFunds is a platform designed to help families achieve their financial goals. Founded in 2022, our company aims to simplify family budget planning with user-friendly tools and expert support.
+
+            Our Vision: Financial freedom is a right for everyone.
+            Our Mission: To provide reliable and effective solutions that help families secure their future.
+            
+            With our expert team and innovative tools, we have supported countless families to date. You too can start planning your family’s future with us!
+            
+            This content offers a professional tone while maintaining a value-driven approach for visitors. Feel free to customize it according to your needs!</p>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="section">
+        <h2>Our Services</h2>
+        <p>Personalized Budget Planning
+            Analyze your family’s income and expenses to create budget plans tailored to your needs.
+            
+            Automated Expense Tracking
+            Take control of your spending with tools that categorize and track your expenses.
+            
+            Savings Goal Setting
+            Set custom savings goals and use guided tools to help you achieve them.
+            
+            Reporting and Analysis
+            Access detailed reports for income-expense analysis and financial forecasts for the future.</p>
+    </div>
+
+    <!-- Design Section -->
+    <div id="design" class="section">
+        <h2>Design</h2>
+        <p>User-Friendly Interface
+
+            Simple and Intuitive Design: A clean and modern layout that helps users easily understand complex financial data.
+            User-Centered Navigation: Menus and tabs designed for quick access to tools.
+            Accessibility: A design with attention to color contrast and font sizes, ensuring ease of use for everyone.
+            Visual Themes
+
+            Customizable Dashboard: Highlight income, expenses, or savings charts based on the user’s needs.
+            Graph and Table Visualizations: Aesthetic graphs and tables that illustrate spending habits.
+            Mobile and Desktop Design
+            A section explaining how the platform functions across different devices.
+            
+            Mobile-Friendly Design: An interface optimized for easy use on smartphones and tablets.
+            Responsive Design: A layout that works seamlessly across various screen sizes.</p>
+    </div>
+
+    <!-- How It Works Section -->
+    <div id="howItWork" class="section">
+        <h2>How It Works</h2>
+        <p>Start by creating your account and entering basic details about your income, household expenses, and financial goals.
+           Create your budget by categorizing your expenses, such as groceries, utilities, and entertainment. Set realistic savings goals for future needs.
+           Track your spending automatically with real-time updates. Adjust your budget as needed to stay on track.
+           Get detailed reports and visual charts to help you understand your financial situation and make adjustments where necessary.
+           Your data is protected with the highest level of encryption and we do not share your personal information with third parties.
+           Ready to start budgeting? Sign up now and take control of your family’s financial future!
+        </p>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form>
+            <!-- Name Field -->
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        
+        <!-- Email Field -->
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+        
+        <!-- Message Field -->
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+</body>
+</html>
